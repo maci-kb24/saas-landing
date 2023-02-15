@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SaaS Landing Page</title>
+    <link href="/dist/style.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+  </head>
+  <body class="min-h-full">
+    <header class="bg-[url('./dist/images/wave.png')] bg-cover bg-no-repeat">
+      <div class="container"></div>
+      <div class="flex menu">
+        <div>
+          <img src="/dist/images/wave.png" alt="" class="w-9" />
+          <p class="text-1xl text-purple">GroundDesk</p>
+        </div>
+        <nav>
+          <ul>
+            <li>Product</li>
+            <li>Solutions</li>
+            <li>Customer</li>
+            <li>Pricing</li>
+            <li>About Us</li>
+          </ul>
+        </nav>
+        <div>
+          <button>Login</button>
+          <button>Sign Up</button>
+        </div>
+      </div>
+      <div class="hero">
+        <div class="sm:container px-6">
+          <div class="hero-content">
+            <h1>We help to get business solution ever</h1>
+            <p>
+              We provide many features that you can use cheaply and easily. Try
+              it now and get an interesting promo
+            </p>
+          </div>
+          <div class="hero-buttons">
+            <button>Try for free</button>
+            <button>Watch a demo</button>
+          </div>
+          <div class="hero-images flex justify-center sm:flex-row flex-col">
+            <div class="hero-image-left">
+              <img src="/dist/images/Dashboard - Light 1.png" alt="" />
+            </div>
+            <div class="hero-image-right">
+              <img
+                src="/dist/images/Dashboard - Dark 1.png"
+                alt=""
+                class="-translate-x-1"
+              />
+            </div>
+          </div>
+          <div class="hero-logos flex sm:flex-row flex-col">
+            <img
+              src="/dist/images/ServiceNow.png"
+              alt=""
+              class="w-1/2 sm:w-3/4"
+            />
+            <img src="/dist/images/Paychex.png" alt="" class="w-1/2 sm:w-3/4" />
+            <img src="/dist/images/Stripe.png" alt="" class="w-1/2 sm:w-3/4" />
+            <img src="/dist/images/GitHub.png" alt="" class="w-1/2 sm:w-3/4" />
+            <img src="/dist/images/Zendesk.png" alt="" class="w-1/2 sm:w-3/4" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="solutions">
+        <div class="container">
+          <div class="solutions-title">
+            <h3>Our Solution for your business</h3>
+            <p>
+              We make it easy for users to use our platform, that's why we
+              provide this benefit.
+            </p>
+          </div>
+          <div class="solutions-grid grid sm:grid-cols-2 md:grid-cols-4">
+            <div>
+              <p><img src="/dist/images/Protect Cloud.svg" alt="" /></p>
+              <h6>Finance Security</h6>
+              <p>
+                All information and transactions will be well encrypted and
+                double security in every activity. Safer transactions, calmer
+                users
+              </p>
+              <p>
+                <a href="#">Learn More</a>
+              </p>
+            </div>
+            <div>
+              <p><img src="/dist/images/Secure.svg" alt="" /></p>
+              <h6>Synchronization</h6>
+              <p>
+                Synced from a Windows, Mac, or Ubuntu Linux computer to the
+                cloud and vice versa without any problems.
+              </p>
+              <p>
+                <a href="#">Learn More</a>
+              </p>
+            </div>
+            <div>
+              <p><img src="/dist/images/Protect Cloud (1).svg" alt="" /></p>
+              <h6>Cloud Drive</h6>
+              <p>
+                It doesn't cost a fortune to move your work online —in fact,
+                it's free! Starting from 5 GB of free storage.
+              </p>
+              <p><a href="#">Learn More</a></p>
+            </div>
+            <div>
+              <p><img src="/dist/images/Target.svg" alt="" /></p>
+              <h6>File Sharing</h6>
+              <p>
+                Ease of accessing files locked by someone with the sharing with
+                friend feature so you can enjoy it together.
+              </p>
+              <p><a href="#">Learn More</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="feature bg-[#F2F2FF]">
+        <div class="container">
+          <div class="feature-grid grid sm:grid-cols-2 gap-16">
+            <div class="feature-left">
+              <h2>Easy collaborative financial team</h2>
+              <p>
+                No need to worry about your files being lost because we are very
+                loyal to be your storage platform.
+              </p>
+              <div class="flex">
+                <div class="flex">
+                  <img src="/dist/images/Mask.png" alt="" />
+                  <img src="/dist/images/Mask (1).png" alt="" />
+                  <img src="/dist/images/Mask (2).png" alt="" />
+                  <img src="/dist/images/Mask (3).png" alt="" />
+                </div>
+                <div>
+                  <p>More than 10.000 people have tried</p>
+                </div>
+              </div>
+              <div>
+                <button>Try for free</button>
+              </div>
+            </div>
+            <div class="feature-right-img">
+              <img src="/dist/images/Dashboard - Light.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="pricing">
+        <div class="container">
+          <div class="pricing-title">
+            <h2>Our Pricing</h2>
+          </div>
+          <div class="pricing-subtitle flex">
+            <p>Monthly</p>
+            <div class="flex justify-center">
+              <div>
+                <div class="form-check form-switch mb-7">
+                  <input
+                    class="form-check-input appearance-none w-9 -ml-10 rounded-full float-left h-5 align-top bg-white bg-no-repeat bg-contain bg-gray-300 focus:outline-none cursor-pointer shadow-sm"
+                    type="checkbox"
+                    role="switch"
+                    id="flexSwitchCheckDefault56"
+                  />
+                </div>
+              </div>
+            </div>
+            <p>Yearly</p>
+          </div>
+          <div class="pricing-grid grid sm:grid-cols-3 gap-6">
+            <div
+              class="pricing-card rounded-xl px-6 py-12 shadow-[0_10px_56px_rgba(0,0,0,0.5)]"
+            >
+              <h6>Standard</h6>
+              <p>The national average cost of buying coin easy.</p>
+              <p><span>$5</span>/month</p>
+              <button>Select a plan</button>
+              <ul>
+                <li>
+                  <img
+                    src="/dist/images/check-blue.png"
+                    class="inline-block"
+                  />5 collections
+                </li>
+                <li>
+                  <img
+                    src="dist/images/check-blue.png"
+                    class="inline-block"
+                  />Worldwide accessbility
+                </li>
+                <li>
+                  <img
+                    src="dist/images/check-blue.png"
+                    class="inline-block"
+                  />25 automation actions
+                </li>
+                <li>
+                  <img
+                    src="dist/images/check-blue.png"
+                    class="inline-block"
+                  />Access all features
+                </li>
+                <li>
+                  <img
+                    src="dist/images/check-blue.png"
+                    class="inline-block"
+                  />24 hours support
+                </li>
+                <li>
+                  <img
+                    src="dist/images/check-grey.png"
+                    class="inline-block"
+                  />Sync accross devices
+                </li>
+                <li>
+                  <img
+                    src="dist/images/check-grey.png"
+                    class="inline-block"
+                  />Share with more 5 users
+                </li>
+              </ul>
+            </div>
+            <div
+              class="pricing-card bg-darkBlue-200 rounded-xl px-6 py-12 shadow-[0_10px_56px_rgba(0,0,0,0.5)]"
+            >
+              <h6>Standard</h6>
+              <p>The national average cost of buying coin easy.</p>
+              <p><span>$5</span>/month</p>
+              <button>Select a plan</button>
+              <ul>
+                <li>
+                  <img
+                    src="/dist/images/check-white.png"
+                    class="inline-block"
+                  />5 collections
+                </li>
+                <li>
+                  <img
+                    src="dist/images/check-white.png"
+                    class="inline-block"
+                  />Worldwide accessbility
+                </li>
+                <li>
+                  <img
+                    src="dist/images/check-white.png"
+                    class="inline-block"
+                  />25 automation actions
+                </li>
+                <li>
+                  <img
+                    src="dist/images/check-white.png"
+                    class="inline-block"
+                  />Access all features
+                </li>
+                <li>
+                  <img
+                    src="dist/images/check-white.png"
+                    class="inline-block"
+                  />24 hours support
+                </li>
+                <li>
+                  <img
+                    src="dist/images/check-white.png"
+                    class="inline-block"
+                  />Sync accross devices
+                </li>
+                <li>
+                  <img
+                    src="dist/images/check-white.png"
+                    class="inline-block"
+                  />Share with more 5 users
+                </li>
+              </ul>
+            </div>
+            <div
+              class="pricing-card rounded-xl px-6 py-12 shadow-[0_10px_56px_rgba(0,0,0,0.5)]"
+            >
+              <h6>Standard</h6>
+              <p>The national average cost of buying coin easy.</p>
+              <p><span>$5</span>/month</p>
+              <button>Select a plan</button>
+              <ul>
+                <li>
+                  <img
+                    src="/dist/images/check-blue.png"
+                    class="inline-block"
+                  />5 collections
+                </li>
+                <li>
+                  <img
+                    src="dist/images/check-blue.png"
+                    class="inline-block"
+                  />Worldwide accessbility
+                </li>
+                <li>
+                  <img
+                    src="dist/images/check-blue.png"
+                    class="inline-block"
+                  />25 automation actions
+                </li>
+                <li>
+                  <img
+                    src="dist/images/check-blue.png"
+                    class="inline-block"
+                  />Access all features
+                </li>
+                <li>
+                  <img
+                    src="dist/images/check-blue.png"
+                    class="inline-block"
+                  />24 hours support
+                </li>
+                <li>
+                  <img
+                    src="dist/images/check-grey.png"
+                    class="inline-block"
+                  />Sync accross devices
+                </li>
+                <li>
+                  <img
+                    src="dist/images/check-grey.png"
+                    class="inline-block"
+                  />Share with more 5 users
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="testimonials">
+        <div class="container">
+          <div class="testimonials-title flex items-center">
+            <div><h3>GroundDesk is loved by users</h3></div>
+            <div class="flex ml-auto">
+              <img
+                src="/dist/images/arrow-left-circle.png"
+                alt=""
+                class="w-14 h-14"
+              />
+              <img
+                src="/dist/images/arrow-right-circle.png"
+                alt=""
+                class="w-14 h-14"
+              />
+            </div>
+          </div>
+
+          <div class="testimonial-grid grid sm:grid-cols-3 gap-6">
+            <div class="testimonial-card p-8">
+              <div>
+                <img src="/dist/images/avatar_1.png" alt="" />
+                <p>Briana Patton</p>
+                <p>Manager</p>
+              </div>
+              <div>
+                <p>
+                  Sed mattis est eget penatibus mauris, sed condimentum vitae
+                  viverra. Ipsum ut aliquet et morbi ac in. Lacinia mattis eget
+                  nisl pellentesque non, porttitor. Vitae et vestibulum ac id.
+                  Dui aliquet porttitor libero consequat volutpat eget sed
+                  turpis. Feugiat maecenas commodo et morbi morbi gravida.
+                </p>
+                <div>
+                  <img src="/dist/images/Star.png" alt="" />
+                  <img src="/dist/images/Star.png" alt="" />
+                  <img src="/dist/images/Star.png" alt="" />
+                  <img src="/dist/images/Star.png" alt="" />
+                  <img src="/dist/images/Star.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-card p-8">
+              <div>
+                <img src="/dist/images/avatar.png" alt="" />
+                <p>Imelda Cowen</p>
+                <p>Consultant</p>
+              </div>
+              <div>
+                <p>
+                  Sapien praesent tristique iaculis amet sit odio pellentesque.
+                  Sit nulla pretium amet, fames aenean. Nascetur augue vulputate
+                  sed pretium pretium. Scelerisque amet facilisis ut pulvinar
+                  morbi a egestas. Vel vulputate dolor nisl in non. Amet enim
+                  ultricies imperdiet ac.
+                </p>
+                <div>
+                  <img src="/dist/images/Star.png" alt="" />
+                  <img src="/dist/images/Star.png" alt="" />
+                  <img src="/dist/images/Star.png" alt="" />
+                  <img src="/dist/images/Star.png" alt="" />
+                  <img src="/dist/images/Star.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-card p-8">
+              <div>
+                <img src="/dist/images/avatar_2.png" alt="" />
+                <p>Alfred Walton</p>
+                <p>Manager</p>
+              </div>
+              <div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                  pharetra bibendum feugiat diam egestas ornare quisque
+                  tincidunt. Ipsum tortor, pretium lectus urna felis condimentum
+                  cursus at. Platea a, pulvinar lacinia id. Augue tortor nunc,
+                  ultrices nam in augue a.
+                </p>
+                <div>
+                  <img src="/dist/images/Star.png" alt="" />
+                  <img src="/dist/images/Star.png" alt="" />
+                  <img src="/dist/images/Star.png" alt="" />
+                  <img src="/dist/images/Star.png" alt="" />
+                  <img src="/dist/images/Star.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container"></div>
+    </footer>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            container: {
+              center: true,
+              padding: "2.5rem",
+            },
+            colors: {
+              darkBlue: "#0F378F",
+              "darkBlue-100": "#0C0047",
+              "darkBlue-200": "#00218F",
+              "darkBlue-300": "#152C5B",
+              lightBlue: "#37E2D5",
+              purple: "#6A4BFF",
+              grey: "#969696",
+              "grey-100": "#F2F2FF",
+              "grey-200": "#ECECEC",
+              "grey-300": "#F9F9F9",
+              darkBlack: "#343434,",
+            },
+            fontFamily: {
+              sans: ["Be Vietnam Pro", "sans-serif"],
+            },
+            fontSize: {
+              base100: "1.0625",
+              xl: "1.25rem",
+              "1xl": "1.375rem",
+              "4.5xl": "2.5rem",
+              "5.5xl": "3.25rem",
+              "5.8xl": "3.5rem",
+              "6.5xl": "4rem",
+            },
+            boxShadow: {
+              "3xl": "0px 10px 56px  rgba(0, 0, 0, 0.5)",
+            },
+          },
+        },
+      };
+    </script>
+  </body>
+</html>
