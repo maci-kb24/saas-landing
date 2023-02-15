@@ -354,8 +354,12 @@
             </div>
           </div>
 
-          <div class="testimonial-grid grid sm:grid-cols-3 gap-6">
-            <div class="testimonial-card p-8">
+          <div
+            class="testimonial-grid grid sm:grid-cols-2 md:grid-cols-3 gap-6"
+          >
+            <div
+              class="testimonial-card p-8 rounded-xl border-grey-200 border-solid border"
+            >
               <div>
                 <img src="/dist/images/avatar_1.png" alt="" />
                 <p>Briana Patton</p>
@@ -369,7 +373,7 @@
                   Dui aliquet porttitor libero consequat volutpat eget sed
                   turpis. Feugiat maecenas commodo et morbi morbi gravida.
                 </p>
-                <div>
+                <div class="flex">
                   <img src="/dist/images/Star.png" alt="" />
                   <img src="/dist/images/Star.png" alt="" />
                   <img src="/dist/images/Star.png" alt="" />
@@ -378,7 +382,9 @@
                 </div>
               </div>
             </div>
-            <div class="testimonial-card p-8">
+            <div
+              class="testimonial-card p-8 rounded-xl border-grey-200 border-solid border"
+            >
               <div>
                 <img src="/dist/images/avatar.png" alt="" />
                 <p>Imelda Cowen</p>
@@ -392,7 +398,7 @@
                   morbi a egestas. Vel vulputate dolor nisl in non. Amet enim
                   ultricies imperdiet ac.
                 </p>
-                <div>
+                <div class="flex">
                   <img src="/dist/images/Star.png" alt="" />
                   <img src="/dist/images/Star.png" alt="" />
                   <img src="/dist/images/Star.png" alt="" />
@@ -401,7 +407,9 @@
                 </div>
               </div>
             </div>
-            <div class="testimonial-card p-8">
+            <div
+              class="testimonial-card p-8 rounded-xl border-grey-200 border-solid border"
+            >
               <div>
                 <img src="/dist/images/avatar_2.png" alt="" />
                 <p>Alfred Walton</p>
@@ -415,7 +423,7 @@
                   cursus at. Platea a, pulvinar lacinia id. Augue tortor nunc,
                   ultrices nam in augue a.
                 </p>
-                <div>
+                <div class="flex">
                   <img src="/dist/images/Star.png" alt="" />
                   <img src="/dist/images/Star.png" alt="" />
                   <img src="/dist/images/Star.png" alt="" />
@@ -428,8 +436,50 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
-      <div class="container"></div>
+    <footer class="footer bg-grey-300">
+      <div class="container">
+        <div class="footer-flex flex flex-col sm:flex-row">
+          <div>
+            <div class="flex">
+              <img src="/dist/images/Logo_darkblue.png" alt="" />
+              <p>GroundDesk</p>
+            </div>
+            <div>
+              <p>Manage file easily.</p>
+              <p>Everywhere, everytime.</p>
+            </div>
+          </div>
+          <div>
+            <p>Company</p>
+            <ul>
+              <li>About Us</li>
+              <li>Product</li>
+              <li>Testimonial</li>
+            </ul>
+          </div>
+          <div>
+            <p>Support</p>
+            <ul>
+              <li>FAQ</li>
+              <li>Privacy Policy</li>
+              <li>terms of Services</li>
+            </ul>
+          </div>
+          <div>
+            <p>Our Works</p>
+            <ul>
+              <li>Pricing</li>
+              <li>Customer</li>
+              <li>Product</li>
+            </ul>
+          </div>
+          <div>
+            <img src="/dist/images/image 20.png" alt="" />
+            <img src="/dist/images/image 21.png" alt="" />
+            <img src="/dist/images/image 22.png" alt="" />
+          </div>
+        </div>
+      </div>
     </footer>
     <script>
       tailwind.config = {
