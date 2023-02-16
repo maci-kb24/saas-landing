@@ -11,30 +11,49 @@
   </head>
   <body class="min-h-full">
     <header class="bg-[url('./dist/images/wave.png')] bg-cover bg-no-repeat">
-      <div class="container"></div>
-      <div class="flex menu">
-        <div>
-          <img src="/dist/images/wave.png" alt="" class="w-9" />
-          <p class="text-1xl text-purple">GroundDesk</p>
-        </div>
-        <nav>
-          <ul>
-            <li>Product</li>
-            <li>Solutions</li>
-            <li>Customer</li>
-            <li>Pricing</li>
-            <li>About Us</li>
-          </ul>
-        </nav>
-        <div>
-          <button>Login</button>
-          <button>Sign Up</button>
+      <div class="container">
+        <div class="flex menu justify-between items-center pt-5">
+          <div class="flex">
+            <img src="/dist/images/Logo.png" alt="" class="w-9 h-9" />
+            <p class="text-xl text-white font-semibold pl-2">GroundDesk</p>
+          </div>
+          <nav>
+            <ul class="flex">
+              <li class="pr-10">
+                <a href="#" class="text-white text-base">Product</a>
+              </li>
+              <li class="pr-10">
+                <a href="#" class="text-white text-base">Solutions</a>
+              </li>
+              <li class="pr-10">
+                <a href="#" class="text-white text-base">Customer</a>
+              </li>
+              <li class="pr-10">
+                <a href="#" class="text-white text-base">Pricing</a>
+              </li>
+              <li><a href="#" class="text-white text-base">About Us</a></li>
+            </ul>
+          </nav>
+          <div>
+            <a
+              href="#"
+              class="text-white inline-flex py-3 px-11 border border-solid border-white rounded-lg"
+              >Login</a
+            >
+            <a
+              href="#"
+              class="text-purple inline-flex py-3 px-11 rounded-lg bg-white"
+              >Sign Up</a
+            >
+          </div>
         </div>
       </div>
       <div class="hero">
         <div class="sm:container px-6">
-          <div class="hero-content">
-            <h1>We help to get business solution ever</h1>
+          <div class="hero-content text-center">
+            <h1 class="text-white text-6.5xl">
+              We Help To Get <span>Business</span> Solution Ever
+            </h1>
             <p>
               We provide many features that you can use cheaply and easily. Try
               it now and get an interesting promo
@@ -506,13 +525,12 @@
               sans: ["Be Vietnam Pro", "sans-serif"],
             },
             fontSize: {
-              base100: "1.0625",
-              xl: "1.25rem",
-              "1xl": "1.375rem",
-              "4.5xl": "2.5rem",
-              "5.5xl": "3.25rem",
-              "5.8xl": "3.5rem",
-              "6.5xl": "4rem",
+              base100: "1.0625", // 17px
+              "1xl": "1.375rem", // 22px
+              "4.5xl": "2.5rem", // 40px
+              "5.5xl": "3.25rem", // 52px
+              "5.8xl": "3.5rem", // 56px
+              "6.5xl": "4rem", // 64px
             },
             boxShadow: {
               "3xl": "0px 10px 56px  rgba(0, 0, 0, 0.5)",
