@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SaaS Landing Page</title>
-    <link href="/dist/style.css" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
   </head>
@@ -99,20 +98,20 @@
             </div>
           </div>
           <div
-            class="hero-logos flex sm:flex-row flex-col justify-start items-center pt-[70px] pl-[66px]"
+            class="hero-logos flex sm:flex-row flex-col justify-start items-center pt-[70px] md:pl-[66px]"
           >
             <img
               src="/dist/images/servicesnow.png"
               alt=""
-              class="h-[5vh] mr-[55px]"
+              class="h-[5vh] md:mr-[55px]"
             />
             <img
               src="/dist/images/paycheck.png"
               alt=""
-              class="h-[3vh] mr-[85px]"
+              class="h-[3vh] md:mr-[85px]"
             />
-            <img src="/dist/images/GitHub.png" alt="" class="mr-[85px]" />
-            <img src="/dist/images/Stripe.png" alt="" class="mr-[150px]" />
+            <img src="/dist/images/GitHub.png" alt="" class="md:mr-[85px]" />
+            <img src="/dist/images/Stripe.png" alt="" class="md:mr-[150px]" />
             <img src="/dist/images/Zendesk.png" alt="" />
           </div>
         </div>
@@ -513,44 +512,49 @@
           </div>
         </div>
       </section>
-      <section class="testimonials">
+      <section class="testimonials py-[100px]">
         <div class="container">
           <div class="testimonials-title flex items-center">
-            <div><h3>GroundDesk is loved by users</h3></div>
+            <div>
+              <h3 class="text-4.5xl text-darkBlue-100 font-bold">
+                GroundDesk is loved by users
+              </h3>
+            </div>
             <div class="flex ml-auto">
               <img
                 src="/dist/images/arrow-left-circle.png"
                 alt=""
-                class="w-14 h-14"
+                class="w-14 h-14 cursor-pointer"
               />
               <img
                 src="/dist/images/arrow-right-circle.png"
                 alt=""
-                class="w-14 h-14"
+                class="w-14 h-14 ml-10 cursor-pointer mr-2"
               />
             </div>
           </div>
-
           <div
-            class="testimonial-grid grid sm:grid-cols-2 md:grid-cols-3 gap-6"
+            class="testimonial-grid grid sm:grid-cols-2 md:grid-cols-3 gap-6 mt-[60px]"
           >
             <div
               class="testimonial-card p-8 rounded-xl border-grey-200 border-solid border"
             >
-              <div>
+              <div class="flex items-center">
                 <img src="/dist/images/avatar_1.png" alt="" />
-                <p>Briana Patton</p>
-                <p>Manager</p>
+                <div class="ml-5">
+                  <p>Brian Patton</p>
+                  <p>Manager</p>
+                </div>
               </div>
               <div>
-                <p>
+                <p class="pt-6">
                   Sed mattis est eget penatibus mauris, sed condimentum vitae
                   viverra. Ipsum ut aliquet et morbi ac in. Lacinia mattis eget
                   nisl pellentesque non, porttitor. Vitae et vestibulum ac id.
                   Dui aliquet porttitor libero consequat volutpat eget sed
                   turpis. Feugiat maecenas commodo et morbi morbi gravida.
                 </p>
-                <div class="flex">
+                <div class="flex pt-6">
                   <img src="/dist/images/Star.png" alt="" />
                   <img src="/dist/images/Star.png" alt="" />
                   <img src="/dist/images/Star.png" alt="" />
@@ -562,20 +566,22 @@
             <div
               class="testimonial-card p-8 rounded-xl border-grey-200 border-solid border"
             >
-              <div>
+              <div class="flex items-center">
                 <img src="/dist/images/avatar.png" alt="" />
-                <p>Imelda Cowen</p>
-                <p>Consultant</p>
+                <div class="ml-5">
+                  <p>Imelda Cowen</p>
+                  <p>Consultant</p>
+                </div>
               </div>
               <div>
-                <p>
+                <p class="pt-6">
                   Sapien praesent tristique iaculis amet sit odio pellentesque.
                   Sit nulla pretium amet, fames aenean. Nascetur augue vulputate
                   sed pretium pretium. Scelerisque amet facilisis ut pulvinar
                   morbi a egestas. Vel vulputate dolor nisl in non. Amet enim
                   ultricies imperdiet ac.
                 </p>
-                <div class="flex">
+                <div class="flex pt-6">
                   <img src="/dist/images/Star.png" alt="" />
                   <img src="/dist/images/Star.png" alt="" />
                   <img src="/dist/images/Star.png" alt="" />
@@ -587,20 +593,22 @@
             <div
               class="testimonial-card p-8 rounded-xl border-grey-200 border-solid border"
             >
-              <div>
+              <div class="flex items-center">
                 <img src="/dist/images/avatar_2.png" alt="" />
-                <p>Alfred Walton</p>
-                <p>Manager</p>
+                <div class="ml-5">
+                  <p class="test-lg">Alfred Walton</p>
+                  <p>Manager</p>
+                </div>
               </div>
               <div>
-                <p>
+                <p class="pt-6">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
                   pharetra bibendum feugiat diam egestas ornare quisque
                   tincidunt. Ipsum tortor, pretium lectus urna felis condimentum
                   cursus at. Platea a, pulvinar lacinia id. Augue tortor nunc,
                   ultrices nam in augue a.
                 </p>
-                <div class="flex">
+                <div class="flex pt-6">
                   <img src="/dist/images/Star.png" alt="" />
                   <img src="/dist/images/Star.png" alt="" />
                   <img src="/dist/images/Star.png" alt="" />
@@ -613,10 +621,10 @@
         </div>
       </section>
     </main>
-    <footer class="footer bg-grey-300">
+    <footer class="footer bg-grey-300 pt-20 pb-5">
       <div class="container">
         <div class="footer-flex flex flex-col sm:flex-row">
-          <div>
+          <div class="grow-[3]">
             <div class="flex">
               <img src="/dist/images/Logo_darkblue.png" alt="" />
               <p>GroundDesk</p>
@@ -626,7 +634,7 @@
               <p>Everywhere, everytime.</p>
             </div>
           </div>
-          <div>
+          <div class="ml-auto grow">
             <p>Company</p>
             <ul>
               <li>About Us</li>
@@ -634,7 +642,7 @@
               <li>Testimonial</li>
             </ul>
           </div>
-          <div>
+          <div class="grow">
             <p>Support</p>
             <ul>
               <li>FAQ</li>
@@ -642,7 +650,7 @@
               <li>terms of Services</li>
             </ul>
           </div>
-          <div>
+          <div class="grow">
             <p>Our Works</p>
             <ul>
               <li>Pricing</li>
@@ -651,10 +659,15 @@
             </ul>
           </div>
           <div>
-            <img src="/dist/images/image 20.png" alt="" />
+            <img src="/dist/images/image 20.png" alt="" class="-mt-8" />
             <img src="/dist/images/image 21.png" alt="" />
             <img src="/dist/images/image 22.png" alt="" />
           </div>
+        </div>
+        <div class="text-center">
+          <p class="text-base text-darkBlack">
+            ©2022 GrounDesk. All right reserved
+          </p>
         </div>
       </div>
     </footer>
