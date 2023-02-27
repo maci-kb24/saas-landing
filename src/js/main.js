@@ -1,5 +1,5 @@
 // Update prices when checkbox is checked
-const checkbox = document.querySelector("#flexSwitchCheckDefault56");
+const checkbox = document.querySelector("#toogleA");
 
 const defaultPrices = {
   price1: 5,
@@ -15,6 +15,14 @@ const newPrices = {
 
 checkbox.addEventListener("change", function () {
   const checked = checkbox.checked;
+
+  if (checked) {
+    const dotChecked = (document.querySelector(".dot").style.transform =
+      "translateX(100%)");
+  } else {
+    const dotUnchecked = (document.querySelector(".dot").style.transform =
+      "translateX(0%)");
+  }
 
   const prices = checked ? newPrices : defaultPrices;
   for (const id in prices) {
