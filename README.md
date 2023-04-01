@@ -2,7 +2,7 @@
 
 Live site - (https://saas-landing-page-tailwind.netlify.app/)
 
-Figma version - (shorturl.at/jJYZ2)
+Figma version - (https://shorturl.at/jJYZ2)
 
 Landing page for a SAAS startup built with Tailwind.
 
