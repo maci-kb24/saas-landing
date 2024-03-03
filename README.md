@@ -1,11 +1,10 @@
 # GroundDesk
 
+Landing page for a SAAS startup built with Tailwind.
+
 Live site - (https://saas-landing-page-tailwind.netlify.app/)
 
-Figma version - (https://shorturl.at/jJYZ2)
-
-Landing page for a SAAS startup built with Tailwind.
 
 ## Challenge
 
-The challenge was to building the project with Tailwind which i use for the first time so i learn a lot, it is easier to customize than Bootstrap and i can see it Tailwind beind used in prototyping, small or large projects it's makes sense.
+The challenge was to build the project with Tailwind which i used for the first time so i learned a lot, it is easier to customize than Bootstrap and i can see Tailwind being used in prototyping, small or large projects it makes sense.
